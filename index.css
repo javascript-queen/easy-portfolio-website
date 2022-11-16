@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em; /* 16px */
+  font-weight: 400;
+  margin: 0;
+  color: #000000;
+}
+
+/* layout */
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header,
+section {
+    padding: 20px 0;
+}
+
+header {
+  background-image: url('assets/img/glitter.png');
+  background-size: cover;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+/* typography 
+  font-family: 'Lobster', cursive;
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Open Sans', sans-serif;
+
+  using the 1.250 (Major Third) scale
+  h1 — 48.828px 
+  h2 — 39.063px
+  h3 — 31.25px
+  h4 — 25px
+  h5 — 20px
+  Body Text — 16px
+  Caption Text — 12.8px
+  Small Print — 10.24px 
+
+  and let's round the numbers up:
+  h1 — 48px 
+  h2 — 39px
+  h3 — 31px
+  h4 — 25px
+  h5 — 20px
+  Body Text — 16px
+  Caption Text — 12px
+  Small Print — 10px
+*/
+
+h1, h2 {
+  font-family: 'Lobster Two', cursive;
+  padding: 30px 0px;
+}
+
+h1 {
+  font-size: 3em; /* 48px/16=3em */
+  color: #b00f0f;
+  margin-top: 0;
+}
+
+h2 {
+  font-size:  2.4375em; /* 39px/16=2.4375emm */
+  color: #b00f0f;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.yellow-text {
+  color: #e8aa38;
+}
+
+h3 {
+  font-size: 1.9375em; /* 31px/16=1.9375em */
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.small-text {
+  font-size: 0.75em; /* 12px */
+  color: #b00f0f;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.name,
+time {
+  font-weight: 900;
+}
+
+.thin {
+  font-weight: 400;
+  color: #000000;
+  display: block;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+
+}
+
+a:hover, a:focus {
+  color: #b00f0f;
+}
+
+/* images */
+
+.profile {
+  border-radius: 50%;
+  width: 200px;
+  border: 6px solid #b00f0f;
+  margin-bottom: 50px;
+}
+
+/* buttons */
+
+.btn {
+  padding: 20px;
+  background-color: #e8aa38;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #b00f0f;
+  color: #FFFFFF;
+}
+
+.btn-white {
+  background-color: #FFFFFF;
+}
